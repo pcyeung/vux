@@ -8,7 +8,7 @@ import XNumber from './x-number'
 import Cell from './cell'
 import InlineDesc from './inline-desc'
 import Checklist from './checklist'
-import XSwitch from './switch'
+import XSwitch from './x-switch'
 import XTextarea from './x-textarea'
 import Group from './group'
 import GroupTitle from './group-title'
@@ -25,19 +25,19 @@ import Actionsheet from './actionsheet'
 import Clocker from './clocker'
 import Rater from './rater'
 import PopupPicker from './popup-picker'
-import XAddress from './address'
+import XAddress from './x-address'
 import Toast from './toast'
 import Loading from './loading'
 import Alert from './alert'
 import Confirm from './confirm'
-import XProgress from './progress'
+import XProgress from './x-progress'
 import XImg from './x-img'
 import Spinner from './spinner'
 import Calendar from './calendar'
 import Icon from './icon'
-import XCircle from './circle'
+import XCircle from './x-circle'
 import ColorPicker from './color-picker'
-import AddressChinaData from './address/list.json'
+// import AddressChinaData from './address/list.json'
 import Divider from './divider'
 import Blur from './blur'
 import Countup from './countup'
@@ -53,7 +53,7 @@ import XHeader from './x-header'
 import Panel from './panel'
 import InlineCalendar from './inline-calendar'
 import Badge from './badge'
-import XDialog from './dialog'
+import XDialog from './x-dialog'
 import Card from './card'
 import Previewer from './previewer'
 import NumberRoller from './number-roller'
@@ -69,7 +69,7 @@ import { Step, StepItem } from './step'
 import { Timeline, TimelineItem } from './timeline'
 import { Tabbar, TabbarItem } from './tabbar'
 import { Tab, TabItem } from './tab'
-import { Swiper, SwiperItem } from './swiper-item'
+import { Swiper, SwiperItem } from './swiper'
 
 const vux = {
   Radio,
@@ -114,7 +114,7 @@ const vux = {
   Icon,
   XCircle,
   ColorPicker,
-  AddressChinaData,
+  // AddressChinaData,
   Divider,
   Blur,
   Countup,
